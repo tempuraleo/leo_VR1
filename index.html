@@ -1,39 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <meta charset="utf-8">
+    <title></title>
   </head>
   <body>
-    <a-scene>
+    <h2>VR</h2>
 
-      <a-assets>
-        <a-image id="sky" src="sky.png">
-          <a-image id="sun" src="sun.jpg">
-      </a-assets>
+    <h3>Intro</h3>
+    <a href="./1_intro/index.html">1_exemple syntaxe</a><br>
 
-  <a-sphere position="0 1 -5" radius="1" material="src: #sun"
+    <h3>Langage</h3>
+    <a href="./2_langage/index.html">2_primitive</a><br>
+    <a href="./2_langage/index_physic.html">2_physic</a><br>
+    <a href="./2_langage/index_register.html">2_register</a><br>
 
-   ></a-sphere>
+    <h3>Primitive</h3>
+    <a href="./3_primitive/index.html">3_box</a><br>
+    <a href="./3_primitive/index_rotation.html">3_box_rotation</a><br>
+    <a href="./3_primitive/index_couleur.html">3_box_couleur</a><br>
+    <a href="./3_primitive/index_taille.html">3_box_taille</a><br>
+    <a href="./3_primitive/index_position.html">3_box_position</a><br>
+    <a href="./3_primitive/index_texture.html">3_box_texture</a><br>
 
- <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 5000">
-  <a-sphere position="0 1 -7.5" radius="0.5" color="#EF2D5E"></a-sphere>
-      </a-entity>
+    <h4>Modeles</h4>
+    <a href="./4_models/index.html">4_modele_glb</a><br>
+    <a href="./4_models/index_draco.html">4_modele_glb_compressed</a><br>
 
-  <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 7500">
-  <a-sphere position="0 1 -10" radius="0.25" color="#00A5A9"></a-sphere>
-          </a-entity>
+    <h4>Component</h4>
+    <a href="./5_component/index.html">5_component</a><br>
 
-   <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 10000">
-  <a-sphere position="0 1 -15" radius="0.75" color="#735DB8"></a-sphere>
-          </a-entity>
+    <h4>Animation</h4>
+    <a href="./6_animation/index.html">6_animation</a><br>
 
-    <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 12500">
-    <a-sphere position="0 1 -20" radius="1.25" color="#830000"></a-sphere>
-  </a-entity>
-
-
-
-      <a-sky src="#sky"></a-sky>
-
-    </a-scene>
   </body>
 </html>
