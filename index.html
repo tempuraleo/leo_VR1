@@ -36,10 +36,13 @@
 				  <a-image id="sky" src="./models/sky.png">
 			</a-assets>
 
-	<a-entity light="type: spot; angle: 45"></a-entity>
+			<a-entity light="type: spot; angle: 45"></a-entity>
+			
+			<a-entity id="camera" position="0 1.7 0"
+														camera look-controls
+			></a-entity>
 
 			<a-entity   id ="modele"
-						color="#white"
 						scale="1 1 1"
 						position="0 0 -5"
 						rotation="0 0 0"
