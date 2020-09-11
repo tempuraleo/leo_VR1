@@ -30,13 +30,13 @@
 
 	<!--	<a-scene
 	background="color: skyblue"> -->
-	<a-scene>
+			<a-scene>
 			<a-assets>
 				<a-asset-item id="glbModel" src="./models/femme1.glb"></a-asset-item>
 				  <a-image id="sky" src="./models/sky.png">
 			</a-assets>
 
-	<a-entity light="type: ambient; color: #CCC"></a-entity>
+	<a-entity light="type: spot; angle: 45"></a-entity>
 
 			<a-entity   id ="modele"
 						scale="1 1 1"
