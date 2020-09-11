@@ -33,9 +33,7 @@
 				<a-asset-item id="glbModel" src="./models/femme1.glb"></a-asset-item>
 			</a-assets>
 
-			<a-light type="directional" position="0 0 0" rotation="-90 0 0" target="#directionaltarget">
-  <a-entity id="directionaltarget" position="0 0 -1"></a-entity>
-</a-light>
+			<a-entity light="type: hemisphere; color: #33C; groundColor: #3C3; intensity: 2"></a-entity>
 
 			<a-entity   id ="modele"
 						scale="1 1 1"
