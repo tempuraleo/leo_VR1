@@ -1,6 +1,6 @@
 <!-- https://github.com/jgbarah/aframe-playground/tree/master/moving-01 -->
 <!-- Fox : https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Fox -->
-<!-- animations : dans le gltf "name":  Walk / Survey / Run-->
+<!-- animations : dans le gltf "name":  1_up / 2_down / 3_left / 4_right / 5_rotate -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,14 +13,14 @@
 
       <a-scene>
         <a-assets>
-          <a-asset-item id="fox" src="./models/fox.glb"></a-asset-item>
+          <a-asset-item id="cube" src="./models/cube.glb"></a-asset-item>
         </a-assets>
 
         <a-entity position="-4 -2 -9"
                   rotation="0 60 0"
                   scale="0.03 0.03 0.03"
                   gltf-model="#fox"
-                  animation-mixer="clip: Survey">
+                  animation-mixer="clip: 1_up">
         </a-entity>
 
         <a-sky color="grey"></a-sky>
