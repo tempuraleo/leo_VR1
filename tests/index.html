@@ -1,36 +1,19 @@
 <html>
   <head>
-    <style>
-      .soustitre {color: red;}
-      #titre {color: blue;}
-    </style>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script>
+    </script>
   </head>
 
   <body>
-      <h1 class= "soustitre">coucou les copains!!!</h1>
-      <div>
-        <h1 id= "titre">méga surprise!!!</h1>
-      </div>
-      <button onclick="myFunction()">qu'est-ce que ça peut bien être??</button>
+      <a-scene>
+        <a-box
+          position="0 0 -5"
+          rotation="0 0 30"
+          >
+        </a-box>
 
-
-      <script>
-
-        //var contenu = 0;
-        //for (var i=0; i<10; i++){
-        //var i = 0;
-        //while(i<10);{
-        //do {
-        //  contenu += "_"+i;
-        //  i++;}
-        //while(i<10);
-        //if (res1 > 0) { contenu = "je te dis pas"; }
-        //else { contenu = "je suis un agent secret et je pars au brésil avec ma famille!!!"; }
-
-        function myFunction() {
-        var contenu = "je suis un agent secret et je pars au brésil avec ma famille!!!" ;
-          document.getElementById("titre").innerHTML = contenu ;
-        }
-      </script>
+        <a-sky color="6EBAA7"></a-sky>
+      </a-scene>
   </body>
 </html>

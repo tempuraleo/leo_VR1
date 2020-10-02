@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      .soustitre {color: red;}
+      #titre {color: blue;}
+    </style>
+  </head>
+
+  <body>
+      <h1 class= "soustitre">coucou les copains!!!</h1>
+      <div>
+        <h1 id= "titre">méga surprise!!!</h1>
+      </div>
+      <button onclick="myFunction()">qu'est-ce que ça peut bien être??</button>
+
+
+      <script>
+
+        //var contenu = 0;
+        //for (var i=0; i<10; i++){
+        //var i = 0;
+        //while(i<10);{
+        //do {
+        //  contenu += "_"+i;
+        //  i++;}
+        //while(i<10);
+        //if (res1 > 0) { contenu = "je te dis pas"; }
+        //else { contenu = "je suis un agent secret et je pars au brésil avec ma famille!!!"; }
+
+        function myFunction() {
+        var contenu = "je suis un agent secret et je pars au brésil avec ma famille!!!" ;
+          document.getElementById("titre").innerHTML = contenu ;
+        }
+      </script>
+  </body>
+</html>
